@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.recipe-title,
+h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.front-image-cover, img{
+    display: block;
+    margin: 0 auto 30px auto;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #06e711;
+}
+
+.ingredients{
+    margin-top: 20px;
+    padding: 0 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+H2{
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.instructions{
+    margin-top: 20px;
+    padding: 0 20px;
+    font-family: 'Inter', sans-serif;
+}
